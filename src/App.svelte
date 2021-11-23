@@ -127,7 +127,7 @@
                 name="ans"
                 id="ans{index}"
                 class="answerradio"
-                style="margin-left: -70em;margin-top:3rem"
+                style="margin-left: -80em;margin-top:3rem"
                 on:click={() => markAttempted(i)}
                 on:click={() => AnsStore(i, index)}
                 on:click={() => checkAnswer(ans.is_correct, i)}
